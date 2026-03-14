@@ -1,9 +1,9 @@
 const CACHE_NAME = 'ai-assistant-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/assets/index-Dw6XsxgD.css',
-  '/assets/index-DD1rlGjU.js'
+  './',
+  './index.html',
+  './assets/index-Dw6XsxgD.css',
+  './assets/index-DD1rlGjU.js'
 ];
 
 self.addEventListener('install', (event) => {
