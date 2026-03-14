@@ -1,0 +1,16 @@
+{
+  "name": "AI Assistant",
+  "short_name": "AI Assistant",
+  "description": "基于通义千问的AI交互助手",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
