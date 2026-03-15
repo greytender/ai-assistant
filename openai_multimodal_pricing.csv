@@ -1,0 +1,14 @@
+# OpenAI Multimodal Model Pricing Data
+# Generated: 2026-03-15T08:54:10.483099+00:00
+# Source: OpenAI Official Pricing Page
+# Source URL: https://openai.com/api/pricing/
+# Currency: USD
+# Units: Prices are in USD per 1,000 tokens unless otherwise noted
+# Academic Use: This dataset is provided for research purposes. Please verify against official sources.
+#
+model_name,input_price_usd_per_1k_tokens,output_price_usd_per_1k_tokens,input_cache_hit_price_usd_per_1k_tokens,context_window_tokens,max_output_tokens,training_data_cutoff,capabilities,notes,data_source,scrape_timestamp,data_reliability
+GPT-4o,5.0,15.0,2.5,128000,16384,Oct 2023,Text; Vision; Audio; Video,Cached tokens discounted; multimodal input may have separate pricing,https://openai.com/api/pricing/,2026-03-15T08:54:10.483099+00:00,verified
+GPT-4o-mini,0.15,0.6,0.075,128000,16384,Oct 2023,Text; Vision,Cost-effective alternative; cached tokens discounted,https://openai.com/api/pricing/,2026-03-15T08:54:10.483099+00:00,verified
+GPT-4 Turbo with Vision,10.0,30.0,,128000,4096,Dec 2023,Text; Vision,Legacy vision model,https://openai.com/api/pricing/,2026-03-15T08:54:10.483099+00:00,verified
+o1,15.0,60.0,7.5,200000,100000,Oct 2023,Text; Reasoning; Code,Enhanced reasoning model; cached tokens discounted,https://openai.com/api/pricing/,2026-03-15T08:54:10.483099+00:00,verified
+o1-mini,3.0,12.0,1.5,128000,65536,Oct 2023,Text; Reasoning; Code,Efficient reasoning model; cached tokens discounted,https://openai.com/api/pricing/,2026-03-15T08:54:10.483099+00:00,verified

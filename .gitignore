@@ -1,27 +1,23 @@
-# 依赖包
-node_modules/
-
-# 环境变量
-.env
-
-# 编译产物
-dist/
-build/
-
-# 缓存
+```
+# Compiled and build artifacts
+*.pyc
 __pycache__/
 
-# 编辑器文件
+# Dependencies
+.venv/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
 .vscode/
 .idea/
-
-# 系统文件
-.DS_Store
-Thumbs.db
-
-# 临时文件
-*.tmp
-*.temp
-
-# 日志文件
-*.log
+```
